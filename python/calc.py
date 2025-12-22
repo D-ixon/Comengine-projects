@@ -56,7 +56,6 @@ def update(frame):
 
     start_trail = max(0, frame-50)
     trail.set_data(positions[start_trail:frame+1], [0]*len(positions[start_trail:frame+1]))
-
     vel_quiver.set_offsets([[x_pos, 0]])
     vel_quiver.set_UVC([0.2*v_now], [0])  
 
