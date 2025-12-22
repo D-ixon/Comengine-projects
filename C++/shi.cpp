@@ -10,7 +10,26 @@ void greetUser() {
     cout << "Nice to meet you, " << name << "!" << endl;
 }
 
+void myfunction(string name = "Hey"){
+    cout<<"Hello " << name << endl;
+}
+
+void multi(string fname, int smth){
+    cout << "Hello " << fname << ", your number is " << smth << endl;
+
+}
+
+int sup(int a){
+    return a*a;
+}
+
 int main() {
     greetUser();
+    myfunction("Liam");
+    myfunction("Jenny");
+    myfunction();
+    multi("Anja", 5);
+    multi("Mark", 10);
+    cout << sup(4);
     return 0;
 }
