@@ -16,6 +16,11 @@ void swapNums(int &x, int &y) {
   y = z;
 }
 
+void samechange(string &word){
+    word += "Kofi";
+}
+
+
 int main() {
   for (int i = 1; i <= 5; i++) {
     cout << "Double of " << i << " is " << doubleGame(i) << endl;
@@ -36,5 +41,11 @@ int main() {
 
   cout << "After swap: " << "\n";
   cout << firstNum <<" "<<secondNum << "\n";
+
+  string myword = "Dickson";
+    samechange(myword);
+    cout << myword <<endl;
+    
   return 0;
 }
+
