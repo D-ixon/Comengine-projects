@@ -45,7 +45,9 @@ int main() {
   string myword = "Dickson";
     samechange(myword);
     cout << myword <<endl;
-    
+
+
+
   return 0;
 }
 
