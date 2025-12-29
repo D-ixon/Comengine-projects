@@ -28,4 +28,4 @@ int main() {
     std::cout << "The average grade is: " << average << std::endl;
 
     return 0;
-}
+} 
