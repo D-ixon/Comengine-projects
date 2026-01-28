@@ -11,7 +11,7 @@ void greetUser() {
 }
 
 void myfunction(string name = "Hey"){
-    cout<<"Hello " << name << endl;
+    cout<<"Hello YOu" << name << endl;
 }
 
 void multi(string fname, int smth){
