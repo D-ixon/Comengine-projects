@@ -1,20 +1,17 @@
 #include <stdio.h>
-#define BOOL char
-#define FALSE 0
-#define TRUE 1
 
+int main() {
 
-//Variable types 
-//Arrays 
-//Multidimensional Arrays
+    int myArray[] = {10, 20, 30, 40, 50}; 
+    
+    int size = sizeof(myArray) / sizeof(myArray[0]);
 
-
-int main(){
-    int numbers[5] = {1, 2, 3, 4, 5};
-    for (int i = 0; i < 5; i++){
-        printf( numbers[i]);
+    printf("Elements in the array are: ");
+    for (int i = 0; i < size; i++) {
+        printf("%d ", myArray[i]); 
     }
-   
-
+    
+    printf("\n"); 
+    
     return 0;
 }
