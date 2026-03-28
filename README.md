@@ -1,2 +1,3 @@
 # Comengine-projects
-A repository focused on AI, ML, control systems simulation, and all the fun that comes with software development. I am working in Python and C++ for these projects.
+Coding beginner projects. Containing metal C and mathematical simulations in python. 
+Made public after intermediate entry. 
