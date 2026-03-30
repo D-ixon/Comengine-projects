@@ -15,7 +15,7 @@ v2 = get_vector("Vector 2")
 v3 = get_vector("Vector 3")
 
 
-a_vals = np.linspace(-1, 1, 10)  # you can increase the number of points for smoother plot
+a_vals = np.linspace(-1, 1, 10)  
 b_vals = np.linspace(-1, 1, 10)
 c_vals = np.linspace(-1, 1, 10)
 
