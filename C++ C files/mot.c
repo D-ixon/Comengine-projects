@@ -17,5 +17,7 @@ int main() {
 
     }
 
+    printf("size of stored data:\n %d", sizeof(motor[3]));
+
     
 }
