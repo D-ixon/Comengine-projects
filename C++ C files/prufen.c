@@ -1,21 +1,19 @@
 #include <stdio.h>
 
-void swap(int *a, int *b) {
-    int initial = *a;
-    *a = *b;
-    *b = initial;
-}
 
 int main() {
-    int a, b;
+    int motor[3] = {100, 80};
 
-    printf("Hello, Please Enter two numbers a and b Below:\n");
-    scanf("%d %d", &a, &b);
+    printf("\nSwapping Values in an array\n");
 
-    printf("Before swap: %d %d\n", a, b);
-
-    swap(&a, &b);
-    printf("After the swap: %d %d\n", a, b);
+    for (int i = 0; i < 1; i++){
+        int value = motor[i];
+        printf("%d\n", value);
+    }
+    for (int i = 1; i < 2; i++){
+        int dos = motor[i];
+        printf("%d\n\n", dos);
+    }
 
     return 0;
 }
