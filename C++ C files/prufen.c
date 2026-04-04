@@ -1,18 +1,24 @@
 #include <stdio.h>
 
-
 int main() {
-    int motor[3] = {100, 80};
+    int motor[5] = {10, 20, 30, 40, 50};
+    int temp; 
 
-    printf("\nSwapping Values in an array\n");
-
-    for (int i = 0; i < 1; i++){
-        int value = motor[i];
-        printf("%d\n", value);
+    printf("--- Original Motor Speeds ---\n");
+    for (int i = 0; i < 5; i++) {
+        printf("Motor [%d]: %d RPM\n", i, motor[i]);
     }
-    for (int i = 1; i < 2; i++){
-        int dos = motor[i];
-        printf("%d\n\n", dos);
+
+    
+    temp = motor[0];      
+    motor[0] = motor[4];  
+    motor[4] = temp;      
+
+    printf("\n[SYSTEM]: Swap complete. First and Last elements exchanged.\n\n");
+
+    printf("--- Updated Motor Speeds ---\n");
+    for (int i = 0; i < 5; i++) {
+        printf("Motor [%d]: %d RPM\n", i, motor[i]);
     }
 
     return 0;
