@@ -2,7 +2,7 @@
 
 int main() {
     int motor[5] = {10, 20, 30, 40, 50};
-    int temp; 
+     
 
     printf("--- --Original Motor Speeds -- ---\n");
     for (int i = 0; i < 5; i++) {
@@ -10,7 +10,7 @@ int main() {
     }
 
     
-    temp = motor[0];      
+    int temp = motor[0];      
     motor[0] = motor[4];  
     motor[4] = temp;      
 
