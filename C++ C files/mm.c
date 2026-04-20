@@ -64,12 +64,12 @@ int main(){
     int e = (a3_1 * b1_1) + (a3_2 * b2_1) + (a3_3 * b3_1);
     int f = (a3_1 * b1_2) + (a3_2 * b2_2) + (a2_3 * b3_2);
 
-    printf("C entry row 1 column 1 %d", a);
-    printf("C entry row 1 column 2 %d", b);
-    printf("C entry row 2 column 1 %d", c);
-    printf("C entry row 2 column 2 %d", d);
-    printf("C entry row 3 column 1 %d", e);
-    printf("C entry row 3 column 2 %d", f);
+    printf("C entry row 1 column 1 %d\n", a);
+    printf("C entry row 1 column 2 %d\n", b);
+    printf("C entry row 2 column 1 %d\n", c);
+    printf("C entry row 2 column 2 %d\n", d);
+    printf("C entry row 3 column 1 %d\n", e);
+    printf("C entry row 3 column 2 %d\n", f);
 
 
 }
