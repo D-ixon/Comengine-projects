@@ -15,7 +15,7 @@ ax.set_zlim(0, 6*np.pi)
 ax.set_xlabel("Cosine (Real) also X axis")
 ax.set_ylabel("Sine (Imagimary) also Y axis")
 ax.set_zlabel("θ (Time)also Z axis")
-ax.set_title("Euler's Identity")
+ax.set_title("Euler's Formula: e^(iθ) = cos(θ) + i*sin(θ)")
 
 helix_line, = ax.plot([], [], [], 'b', linewidth=2)
 moving_point, = ax.plot([0], [0], [0], 'ro')
