@@ -6,7 +6,7 @@ int main(){
     int c1_1, c1_2, c2_1, c2_2, c3_1, c3_2;
 
     printf("A matrix solver\n\n");
-    printf("----------------Enter Enteries of A-----------------\n");
+    printf("\n----------------Enter Enteries of A-----------------\n");
 
     printf("Row 1 column 1:  ");
     scanf("%d", &a1_1);
@@ -55,7 +55,7 @@ int main(){
     printf("\nRow 3 column 2: ");
     scanf("%d", &b3_2);
 
-    printf("-----------------Witness The Magic------------------\n\n");
+    printf("\n-----------------Witness The Magic------------------\n\n");
 
     int a = (a1_1 * b1_1) + (a1_2 * b2_1) + (a1_3 * b3_1);
     int b = (a1_1 * b1_2) + (a1_2 * b2_2) + (a1_3 * b3_2);
